@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Us</title>
+  <link rel="stylesheet" href="styles.css">
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8587042219787939"
+     crossorigin="anonymous"></script>
+</head>
+<body>
+  <header>
+    <h1>Contact Us</h1>
+  </header>
+  <main>
+    <section class="contact-form">
+      <h2>We'd love to hear from you!</h2>
+      <form action="https://formspree.io/f/your_form_id" method="POST">
+        <label for="name">Your Name:</label>
+        <input type="text" id="name" name="name" placeholder="John Doe" required>
+
+        <label for="email">Your Email:</label>
+        <input type="email" id="email" name="email" placeholder="example@domain.com" required>
+
+        <label for="message">Your Message:</label>
+        <textarea id="message" name="message" placeholder="Write your message here..." required></textarea>
+
+        <button type="submit">Send Message</button>
+      </form>
+    </section>
+  </main>
+  <footer>
+    <p>&copy; 2025 creatpages.github.io | Contact us at <a href="mailto:myinbox@my.id">myinbox@my.id</a></p>
+  </footer>
+</body>
+</html>
